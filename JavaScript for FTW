@@ -1,0 +1,9 @@
+var quotes = [
+  "You will meet someone new",
+  "You will meet someone old",
+  "You will meet no one",
+]
+function fortunes(){
+var randomNumber = Math.floor (Math.random()* (quotes.length));
+document.getElementById('quoteDisplay').innerHTML = quotes [randomNumber];
+}
