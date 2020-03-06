@@ -1,0 +1,32 @@
+body{
+  background-color:darkorchid;
+  font:large newyorker, serif;
+  text-align: center;
+  margin:0,auto;
+}
+h1{
+ background-color: purple;
+ color: gold;
+}
+h3{
+  margin: top 50px;
+}
+p{
+  margin:50px;
+}
+.simple-questions{
+  background-color: purple;
+  color: gold;
+}
+.radio-container{
+  text-align: left;
+  margin:50px;
+}
+.birthseason{
+  text-align: left;
+  margin: 50px;
+}
+.favoritefood{
+  text-align: left;
+  margin: 50px;
+}
