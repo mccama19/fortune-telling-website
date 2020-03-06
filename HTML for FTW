@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <title>FortuneTelling</title>
+    <script></script>
+    <style>
+    .parallax{
+		background-image: url("https://previews.dropbox.com/p/thumb/AAtyqNkcQD0igIalouHVOYWr28t88mVRLvd8eKy53_Y4JVzV38wvb3v7CGDZcNvrFkIU_j85_ELUk7X-meMYWn6jh3T-Pm48xDLgffOqHnOANsvPshl2NS_VYLqEzmqqEsfHzr1qmcdSnaFhfNCDUo8_pASxqCOVB7Q_EHWdtMTQOGLjpcOsmFxeaoZCTxj0OPxkCtb13j2xHI66haScOXbnB65sfUeTPdaM6YeV9Ce4q0tHxk1asmXfexLsSxaF0lPpiYrw889WXDt_CWnvyKXN2xs0BPyBaGvsroelRWCwI_NYaW67WaZZBSRYKFV4SXX1Jh2PX5L2MoIvbTyYSoDD/p.jpeg?fv_content=true&size_mode=5");
+		height:150px;
+		background-attachment:fixed;
+		background-position:center;
+		background-repeat:no-repeat;
+		background-size:cover;
+	}
+      </style>
+    <link></link>
+  <meta name="description" content="fortune telling website">
+  </head>
+  <body>
+    <h1>Fortune Telling!</h1>
+    <div class="parallax">
+     <div> <h3>Find your fortune fast! Just answer these simple questions.</h3></div>
+      <div><p>What could be better than to look to the stars and see your future? Having all of that important insight in a one convinient website. Why look to the skys for your future outlook when it's all available right here?
+        </p></div>
+    </div>
+    <div class="simple-questions"><h3>Just answer these 3 simple questions and get your fortune told!</h3></div>
+    <div class="radio-container">
+      <label for="moods"><strong>What is your mood today?</strong></label><br>
+      <input type="radio" id="happy" name="mood" value="happy">
+        <label for="happy">happy</label><br>
+      <input type="radio" id="sad" name="mood" value="sad">
+        <label for="sad">sad</label><br>
+      <input type="radio" id="worried" name="mood" value="worried">
+        <label for="worried">worried</label><br>
+      <input type="radio" id="angry" name="mood" value="angry">
+      <label for="angry">angry</label><br>
+    </div>
+    <div class="birthseason">
+      <label for="birth season"><strong>What season were you born in?</strong></label>
+      <select name="birth season">
+      <option value="select a season">select a season</option>
+      <option value="winter">winter</option>
+      <option value="spring">spring</option>
+      <option value="summer">summer</option>
+      <option value="fall">fall</option>
+        </select><br>
+   </div>
+  <div class="favoritefood">
+    <label for="favorite food"><strong>What is your favorite kind of food?</strong></label>
+    <select name="favorite food">
+      <option value="select food">select a favorite kind of food</option>
+      <option value="spicy">spicy</option>
+      <option value="sweet">sweet</option>
+      <option value="sour">sour</option>
+      <option value="bitter">bitter</option>
+      <option value="earthy">earthy</option>
+    </select><br>
+  </div> 
+    <div id="quoteDisplay"></div>
+    <button onclick="fortunes()">Get a fortune</button>
+  </body>
+</html>
